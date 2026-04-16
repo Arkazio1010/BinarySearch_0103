@@ -23,6 +23,21 @@ void input()
     cout << "        Memasukan Eleman Array        \n";
     cout << "===================================\n";
 
-  
+    for (int i = 0; i < nPanjang; i++)
+    {
+        cout << "Data ke-" << (i + 1) << "= ";
+        cin >> element[i];
+    }
+}
+
+void bubbleSortArray() 
+{
+  int pass = 1;
+  do
+  {
+    /* code */
+   for (int j = 0; j <= nPanjang - 1 - pass; j++)
+    {
+ 
 
 
