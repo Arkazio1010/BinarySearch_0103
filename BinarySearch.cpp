@@ -72,5 +72,15 @@ void binarySearch()
       cout << "        Pencari Binary Search      \n";
       cout << "=====================================\n";
 
-    
+      cout << "Masukan elemen yang ingin dicari: ";
+      cin >> x;
+
+      int low = 0;
+      int high = nPanjang - 1;
+
+      do
+      {
+       int mid = (low + high) / 2;
+
+       if (element[mid] == x)
        
