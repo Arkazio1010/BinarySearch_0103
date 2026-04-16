@@ -63,6 +63,14 @@ void display()
 cout << endl;
 }
 
+void binarySearch() 
+{
+    char ulang;
+    do
+  {
+      cout << "\n=====================================\n";
+      cout << "        Pencari Binary Search      \n";
+      cout << "=====================================\n";
 
-
-
+    
+       
