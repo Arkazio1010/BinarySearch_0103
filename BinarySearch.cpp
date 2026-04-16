@@ -56,8 +56,13 @@ void display()
     cout << "=======================================\n";
 
     for (int j = 0; j < nPanjang; j++)
-  
+{
+    cout << " -> ";
 }
+}
+cout << endl;
+}
+
 
 
 
